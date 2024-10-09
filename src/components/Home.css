@@ -1,0 +1,16 @@
+/* src/components/Home.css */
+
+.home-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-container h1 {
+    color: #01030f; /* Matching the navbar color */
+  }
+  
+  .home-container p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  

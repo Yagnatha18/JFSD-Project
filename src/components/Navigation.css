@@ -1,0 +1,32 @@
+/* src/components/Navigation.css */
+
+.navbar {
+    background-color: #3f51b5; /* Navbar background color */
+    padding: 10px 20px;
+  }
+  
+  .navbar ul {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-around; /* Distribute space evenly */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0; /* No margin needed since we are using space-around */
+  }
+  
+  .navbar a {
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    padding: 10px 15px; /* Add some padding for clickable area */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Light background on hover */
+  }
+  
